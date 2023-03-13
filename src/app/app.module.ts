@@ -4,7 +4,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ShoppingListComponent } from './components/shopping-list/shopping-list.component';
-import { ShoopingListEditComponent } from './components/shopping-list/shooping-list-edit/shooping-list-edit.component';
+import { ShoppingEditComponent } from './components/shopping-list/shopping-edit/shopping-edit.component';
 import { RecipeListComponent } from './components/recipes/recipe-list/recipe-list.component';
 import { RecipeItemComponent } from './components/recipes/recipe-list/recipe-item/recipe-item.component';
 import { RecipeDetailComponent } from './components/recipes/recipe-detail/recipe-detail.component';
@@ -15,7 +15,7 @@ import { RecipesComponent } from './components/recipes/recipes.component';
   declarations: [
     AppComponent,
     ShoppingListComponent,
-    ShoopingListEditComponent,
+    ShoppingEditComponent,
     RecipeListComponent,
     RecipeItemComponent,
     RecipeDetailComponent,
