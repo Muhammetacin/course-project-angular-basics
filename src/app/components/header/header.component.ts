@@ -1,4 +1,4 @@
-import { Component } from "@angular/core";
+import { Component, EventEmitter, Output } from "@angular/core";
 
 @Component({
     selector: "app-header",
@@ -8,4 +8,10 @@ import { Component } from "@angular/core";
 
 export class HeaderComponent {
     collapsed = true;
+
+    @Output() menuElement = new EventEmitter<string>();
+
+    display(menu: string) {
+        this.menuElement.emit(menu);
+    }
 }
